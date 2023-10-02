@@ -3,10 +3,11 @@ body{
     background-image: url('./imagenes/Fondo/fondo1.jpg');
 }
 
-
+/* imagen junto al titulo principal */
 .fondo{
-    width: 230px;
-    height: 130px;
+    width: 350px;
+    height: 190px;
+    border-radius: 15px;
 }
 /* agregando fondo del header principal */
 .main-header{
@@ -15,6 +16,7 @@ body{
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .texto-header{
@@ -24,15 +26,18 @@ body{
 
 .title{
     margin-top: 0;
-    color: #04D939;
+    color: #03A63C;
     font-family: 'Pacifico', cursive;
-    font-size: 2.5em;
+    font-size: 3.7em;
+    text-shadow: 5px 6px 2px #025939,5px 6px 14px #027333;
 }
 
 .nav-link{
     color: white;
-    margin-right: 4px;
-    text-decoration: none;
+    text-decoration: none;   
+    width: 33%;
+    display: inline-block;
+    margin-left: -6px;
 }
 
 .main-container{
@@ -40,9 +45,10 @@ body{
 }
 
 .product img{
-    width: 190px;
-    height: 120px;
+    width: 180px;
+    height: 110px;
     padding-top: 20px;
+    border-radius: 5px;
 }
 
 .product h3{
@@ -57,8 +63,15 @@ body{
 }
 
 .card{
-    background-color: white;
+    background-color: #04D939;
     border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    width: 290px;
+    box-shadow: 6px 5px 1px rgba(0,0,0,0.12), 6px 5px 1px rgba(0,0,0,0.24);
+    width: 230px;
+}
+
+.body{
+    background-color: white;
+    padding: 29px 50px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
